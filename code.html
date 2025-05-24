@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rajalakshmi P - BCom Student Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+    
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto 80px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      color: #2a4966;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: #555;
+      margin: 4px 0;
+    }
+    .contact-info {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      color: #777;
+    }
+    .section {
+      margin-bottom: 36px;
+    }
+    .section h2 {
+      border-bottom: 3px solid #2a4966;
+      display: inline-block;
+      margin-bottom: 18px;
+      padding-bottom: 6px;
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: #2a4966;
+    }
+    .section p, .section li {
+      font-size: 1rem;
+      color: #444;
+    }
+    .education-item, .experience-item {
+      margin-bottom: 18px;
+    }
+    .education-item h3, .experience-item h3 {
+      margin: 0 0 4px 0;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #3b5a7d;
+    }
+    .education-item span, .experience-item span {
+      font-style: italic;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    ul.skills-list {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    ul.skills-list li {
+      background: #2a4966;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: background-color 0.3s ease;
+      cursor: default;
+      user-select: none;
+    }
+    ul.skills-list li:hover {
+      background: #4c79b2;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      border-top: 1px solid #ddd;
+      color: #999;
+      font-size: 0.9rem;
+      /* Removed copyright text */
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px 12px 60px 12px;
+        padding: 16px;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .section h2 {
+        font-size: 1.5rem;
+      }
+      ul.skills-list {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <h1>Rajalakshmi P</h1>
+      <p>BCom Student | Financial Reporting & Accounting Enthusiast</p>
+      <div class="contact-info" aria-label="Contact Information">
+        <div>Email: <a href="mailto:rajalakshmiprasad03@gmail.com">rajalakshmiprasad03@gmail.com</a></div>
+        <div>Phone: <a href="tel:+917829935331">+91 78299 35331</a></div>
+      </div>
+    </header>
+
+    <section class="section about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I am a dedicated and detail-oriented Bachelor of Commerce student with a passion for financial reporting and accounting. I continuously seek to develop analytical skills and a deeper understanding of finance principles, aiming for a successful career in finance and accounting domains.
+      </p>
+    </section>
+
+    <section class="section education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="education-item">
+        <h3>Charan's Degree College, Bangalore</h3>
+        <span>Bachelor of Commerce (BCom) – Expected 2024</span>
+      </div>
+      <div class="education-item">
+        <h3>Charan's PU College, Bangalore</h3>
+        <span>12th Standard - Commerce Stream – Completed 2020</span>
+      </div>
+    </section>
+
+    <section class="section skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="skills-list" aria-label="Skills list">
+        <li>Financial Reporting</li>
+        <li>Financial Accounting</li>
+        <li>MS Excel</li>
+        <li>Data Analysis</li>
+        <li>Accounting Software (Tally)</li>
+        <li>GST Compliance</li>
+        <li>Financial Statement Preparation</li>
+      </ul>
+    </section>
+
+    <section class="section experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Internship & Projects</h2>
+      <div class="experience-item">
+        <h3>Accounting Intern at ABC Finance Firm</h3>
+        <span>June 2023 – August 2023</span>
+        <p>Assisted in maintaining financial records, preparing invoices, and reconciling accounts using Tally software. Gained exposure to GST filing and month-end financial reporting.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Financial Reporting Project</h3>
+        <span>Academic Project - March 2023</span>
+        <p>Prepared detailed financial reports for a simulated business to understand balance sheets, profit & loss statements, and cash flow analysis under GAAP accounting standards.</p>
+      </div>
+    </section>
+
+    <section class="section contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you'd like to connect or learn more about my skills and experience, please reach out via email or phone. I am eager to explore internship opportunities and entry-level roles in finance and accounting.</p>
+      <p><strong>Email:</strong> <a href="mailto:rajalakshmiprasad03@gmail.com">rajalakshmiprasad03@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+917829935331">+91 78299 35331</a></p>
+    </section>
+  </div>
+
+  <footer aria-label="Footer">
+    
+  </footer>
+</body>
+</html>
+
